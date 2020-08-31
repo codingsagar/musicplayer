@@ -16,7 +16,7 @@
             <div class="image_container">
                 <img src="1.jpg" alt="">
             </div>
-            <audio src="music/1.mp3"></audio>
+            <audio src="1.mp3"></audio>
             <!-- controls -->
             <div class="music_controls">
                 <i class="fas fa-backward" id="prev" title="Previous"></i>
@@ -129,7 +129,7 @@
         const loadSong=(songs)=>{
             title.textContent = songs.title;
             artist.textContent = songs.artist;
-            music.src ="music/"+songs.name+".mp3";
+            music.src =songs.name+".mp3";
             //img.src ="images/"+songs.name+".mp3"
 
         }
